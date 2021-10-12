@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form action="add.php" method="post">
+        <label for="">Regester Number: </label>
+        <input type="number" name="regno"><br>
+
+        <label for="">Name: </label>
+        <input type="text" name="name" maxlength="50"><br>
+
+        <label for="">Course: </label>
+        <input type="text" name="course"><br>
+
+        <label for="">Phone: </label>
+        <input type="tel"  pattern="[5-9]{1}[0-9]{9}" name="phn"><br>
+
+        <label for="">Email: </label>
+        <input type="text" name="email"><br>
+
+        <label for="">Semester: </label>
+        <input type="text" name="sem"><br>
+
+        <label for="">Description: </label>
+        <input type="text" name="desc"><br>
+
+        <label for="">Photo: </label>
+        <input type="file" name="pic"><br>
+
+
+        <label for="">Password: </label>
+        <input type="password" minlength="8" name="password"><br>
+
+        <input type="submit">
+
+    </form>
+</body>
+</html>
